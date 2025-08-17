@@ -1,0 +1,59 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*, 
+*::before, *::after{
+    box-sizing: inherit;
+}
+
+.flex-ctr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+body {
+  font-family: Arial;
+  background: blueviolet;
+}
+
+h1 {
+  color: gainsboro ;
+}
+
+form {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 5px;
+  margin-right: 5px;
+
+}
+button{
+  padding: 5px 10px;
+  cursor: pointer;
+}
+li{
+  padding: 5px;
+  margin: 3px 0;
+  background:white;
+  border: 1px solid white;
+}
+
+li.done {
+
+  text-decoration: line-through;
+  color : gray;
+}
