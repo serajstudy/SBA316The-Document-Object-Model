@@ -7,8 +7,8 @@ let todoList = document.querySelector(`#todolist`);
 let reloadBtn =document.getElementById (`reloadBtn`);
 
 
-// console.log(`window width: `+ window.innerWidth);
-// alert(`Welcome to the To Do App!`);
+console.log(`window width: `+ window.innerWidth);
+alert(`Welcome to the To Do App!`);
 
 // add form event listener
 
@@ -55,3 +55,4 @@ reloadBtn.addEventListener(`click`,function(){
     location.reload();
 
 })
+
