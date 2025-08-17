@@ -37,6 +37,21 @@ form.addEventListener(`submit`,function(e){
 });
 
 
+//  event delegation 
 
+todoList.addEventListener(`click`, function(e){
+    if(e.target.tagName ==="LI")
+    {
+        e.target.classlist.toggle (`done`);
+        console.log(`clicked:` + e.target.textContent);
+        console.log (`Parent UL has` + e.target.parentNode.children.length + "item");
 
+    }
+})
 
+//  reload page
+
+reloadBtn.addEventListener(`click`,function(){
+    location.reload();
+
+})
